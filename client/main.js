@@ -1,1 +1,1 @@
-Meteor.subscribe('posts', 'Charles Barkley');
+// Meteor.subscribe('posts', 'Charles Barkley');
