@@ -1,3 +1,7 @@
 Template.layout.helpers({
-  pageTitle: function() { return Session.get('pageTitle'); }
+  pageTitle: function() { 
+	pageTitle = Session.get('pageTitle');
+	if (!pageTitle) { pageTitle = "microscope"; }
+	return pageTitle;
+  }
 });
